@@ -1,0 +1,38 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Tests et outils
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Donnees
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modeles et experiences
+artifacts/
+models/
+mlruns/
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
